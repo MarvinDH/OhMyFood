@@ -1,0 +1,21 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.sass:style.css",
+    "prefix": "postcss style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvinDH/OhMyFood.git"
+  },
+  "author": "MarvinDH",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/MarvinDH/OhMyFood/issues"
+  },
+  "homepage": "https://github.com/MarvinDH/OhMyFood#readme"
+}
