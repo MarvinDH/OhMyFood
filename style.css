@@ -1,9 +1,46 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'raleway', sans-serif;
+  margin-left: 5px; }
+
 img {
-  width: 100%;
-}
+  width: 100%; }
 
 .logo {
-  width: 20%;
-}
+  width: 50%; }
 
-/*# sourceMappingURL=style.css.map */
+html {
+  background-color: #d6cecea1; }
+
+a {
+  color: #000000; }
+
+.menu_title {
+  display: flex;
+  align-items: center; }
+
+.title--heart--icon {
+  font-size: 40px; }
+
+.heart--icon--empty {
+  position: absolute; }
+
+.heart--icon--filled {
+  position: relative; }
+
+.rule {
+  display: flex;
+  align-items: center; }
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  background-color: #fff; }
+
+.localiz {
+  display: flex;
+  align-items: center; }
+
+.footer--logo {
+  width: 50%; }

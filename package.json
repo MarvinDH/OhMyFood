@@ -1,10 +1,11 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.sass:style.css",
+    "sass": "node-sass sass/main.sass style.css -w",
+    "compile": "node-sass sass/main.sass style.css -w --output-style=compressed",
+    "compressed": "node-sass sass/main.sass style.css",
     "prefix": "postcss style.css --use autoprefixer -d ./css/prefixed/"
   },
   "repository": {
@@ -17,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/MarvinDH/OhMyFood/issues"
   },
-  "homepage": "https://github.com/MarvinDH/OhMyFood#readme"
+  "homepage": "https://github.com/MarvinDH/OhMyFood#readme",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
