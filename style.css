@@ -20,8 +20,9 @@ img {
   text-align: center; }
 
 .headerText {
-  background-color: #f0f0f0da;
-  padding: 20px; }
+  background-color: #f5f5f5ec;
+  padding: 20px;
+  padding-bottom: 40px; }
   .headerText h1 {
     font-size: 18px;
     text-align: center;
@@ -48,17 +49,91 @@ img {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #dfdfdfc9; }
+  background-color: #e2e1e1d8; }
   .headerMenu__icon p {
     margin-left: -70px;
     font-size: 14px; }
 
-.rule span {
-  background-color: #dfdfdfc9;
-  padding: 20px;
-  border-radius: 20px;
+.function__title {
+  margin: 20px;
+  margin-top: 35px;
+  font-weight: bold;
+  font-size: 18px; }
+
+.rule {
   display: flex;
-  justify-content: space-between; }
+  align-items: center;
+  margin: 15px; }
+  .rule span {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f5f5ec;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 0 0 10px #a3a3a373;
+    font-weight: bold;
+    margin-left: -5px;
+    z-index: -1; }
+    .rule span i {
+      margin-right: 5px;
+      color: grey; }
+  .rule p {
+    color: #fff;
+    background-color: #9356dc;
+    border-radius: 50%;
+    padding: 2px;
+    width: 20px;
+    text-align: center;
+    z-index: 1; }
+
+.rest {
+  margin-top: 80px;
+  background-color: #f5f5f5ec;
+  padding-bottom: 10px; }
+
+.rest__title {
+  margin: 20px;
+  padding-top: 60px;
+  font-weight: bold;
+  font-size: 18px; }
+
+.rest__img {
+  margin-top: 25px; }
+
+.restCard {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px #a3a3a373;
+  padding-bottom: 10px; }
+  .restCard img {
+    border-radius: 20px 20px 0 0;
+    height: 125px;
+    object-fit: cover; }
+  .restCard figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .restCard figcaption h3 {
+      font-size: 16px;
+      margin: 5px;
+      margin-left: 10px; }
+    .restCard figcaption p {
+      font-size: 14px;
+      margin: 5px;
+      margin-left: 10px; }
+    .restCard figcaption .restCard__icon {
+      font-size: 25px;
+      margin-right: 5%; }
+
+.restCard__new {
+  display: none;
+  background-color: #99e2d0;
+  color: #1c9965;
+  right: 10%;
+  bottom: -400px; }
 
 .menu__title {
   display: flex;
@@ -73,12 +148,25 @@ img {
 .restCard__icon--filled {
   position: relative; }
 
-.rule {
-  display: flex;
-  align-items: center; }
+.footer {
+  background-color: #2b2b2b; }
+
+.footer__container {
+  padding: 20px; }
 
 .footer__logo {
-  width: 50%; }
+  width: 100px;
+  filter: invert(100%);
+  margin-bottom: 10px; }
 
-.restCard {
-  max-width: 700px; }
+.footer__column {
+  display: flex;
+  flex-direction: column; }
+  .footer__column i {
+    font-size: 12.5px;
+    margin-right: 10px; }
+  .footer__column .fa-hands-helping {
+    font-size: 10px; }
+  .footer__column a {
+    color: #fff;
+    margin-top: 10px; }
