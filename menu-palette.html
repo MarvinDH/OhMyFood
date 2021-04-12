@@ -9,85 +9,83 @@
     <title>OhMyFood / La palette du goût</title>
 </head>
 <body>
-    <header class="header_menu">
-        <i class="fas fa-arrow-left"></i>
-        <img class="logo" src="images/logo/ohmyfood@2x.svg" alt="">
+    <header class="headerMenu">
+        <a class="backspace" href="index.html"><i class="fas fa-arrow-left"></i></a>
+        <img class="headerMenu__logo" src="images/logo/ohmyfood@2x.svg" alt="">
     </header>
     <main>
-        <div class="header_img">
+        <div class="header__img">
             <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
         </div>
-        <div class="menu_title">
-            <h1 class="title">La palette du goût</h1>
-            <div class="title--heart--icon">
-                <span class="heart--icon--empty">&#9825;</span>
-                <span class="heart--icon--filled">&#9825;</span>
+        <div class="menuTitle">
+            <h1 class="menuTitle__title">La palette du goût</h1>
+            <div class="menuTitle__icon">
+                <span class="restCard__icon restCard__icon--empty">&#9825;</span>
+                <span class="restCard__icon restCard__icon--filled">&#9825;</span>
             </div>
         </div>
         <div class="menu">
-            <h4 class="menu_title">ENTRÉES</h4>
-            <div class="menu_card">
-                <h4 class="menu_card_title">Fricassée d'escargot</h4>
-                <p class="menu_card_text">Au piment d'espelette</p>
-                <p class="menu_card_price">25€</p>
+            <h4 class="menu__title">ENTRÉES</h4>
+            <div class="menuCard">
+                <h4 class="menuCard_title">Fricassée d'escargot</h4>
+                <p class="menuCard__text">Au piment d'espelette</p>
+                <p class="menuCard__price">25€</p>
             </div>
-            <div class="menu_card">
-                <h4 class="menu_card_title">Foie gras de canard mi-cuit</h4>
-                <p class="menu_card_text">Et ses copeaux de truffe noire</p>
-                <p class="menu_card_price">35€</p>
+            <div class="menuCard">
+                <h4 class="menuCard__title">Foie gras de canard mi-cuit</h4>
+                <p class="menuCard__text">Et ses copeaux de truffe noire</p>
+                <p class="menuCard__price">35€</p>
             </div>
-            <div class="menu_card">
-                <h4 class="menu_card_title">Oeuf au plat</h4>
-                <p class="menu_card_text">Assaisonné à la truffe sur lit de caviar</p>
-                <p class="menu_card_price">20€</p>
-            </div>
-        </div>
-        <div class="menu">
-            <h4 class="menu_title">PLATS</h4>
-            <div class="menu_card">
-                <h4 class="menu_card_title">Filet de boeuf aux herbes</h4>
-                <p class="menu_card_text">Accompagné de sa ribambelle de légumes</p>
-                <p class="menu_card_price">40€</p>
-            </div>
-            <div class="menu_card">
-                <h4 class="menu_card_title">Parmentier de queue de boeuf</h4>
-                <p class="menu_card_text">À la truffe noire sur sa purée de panais</p>
-                <p class="menu_card_price">35€</p>
-            </div>
-            <div class="menu_card">
-                <h4 class="menu_card_title">Filet de turbot</h4>
-                <p class="menu_card_text">Aux agrumes</p>
-                <p class="menu_card_price">44€</p>
+            <div class="menuCard">
+                <h4 class="menuCard__title">Oeuf au plat</h4>
+                <p class="menuCard__text">Assaisonné à la truffe sur lit de caviar</p>
+                <p class="menuCard__price">20€</p>
             </div>
         </div>
         <div class="menu">
-            <h4 class="menu_title">DESSERTS</h4>
-            <div class="menu_card">
-                <h4 class="menu_card_title">Paris-brest</h4>
-                <p class="menu_card_text">Revisité</p>
-                <p class="menu_card_price">18€</p>
+            <h4 class="menu__title">PLATS</h4>
+            <div class="menuCard">
+                <h4 class="menuCard__title">Filet de boeuf aux herbes</h4>
+                <p class="menuCard__text">Accompagné de sa ribambelle de légumes</p>
+                <p class="menuCard__price">40€</p>
             </div>
-            <div class="menu_card">
-                <h4 class="menu_card_title">Macaron au chocolat d'exception</h4>
-                <p class="menu_card_text">Et glace à la vanille de Madagascar</p>
-                <p class="menu_card_price">22€</p>
+            <div class="menuCard">
+                <h4 class="menuCard__title">Parmentier de queue de boeuf</h4>
+                <p class="menuCard__text">À la truffe noire sur sa purée de panais</p>
+                <p class="menuCard__price">35€</p>
             </div>
-            <div class="menu_card">
-                <h4 class="menu_card_title">Mousse au chocolat</h4>
-                <p class="menu_card_text">Au piment d'espelette et à la truffe noire</p>
-                <p class="menu_card_price">23€</p>
+            <div class="menuCard">
+                <h4 class="menuCard__title">Filet de turbot</h4>
+                <p class="menuCard__text">Aux agrumes</p>
+                <p class="menuCard__price">44€</p>
             </div>
         </div>
-        <button class="btn" type="button">
-            Commander
-        </button>
+        <div class="menu">
+            <h4 class="menu__title">DESSERTS</h4>
+            <div class="menuCard">
+                <h4 class="menuCard__title">Paris-brest</h4>
+                <p class="menuCard__text">Revisité</p>
+                <p class="menuCard__price">18€</p>
+            </div>
+            <div class="menuCard">
+                <h4 class="menuCard__title">Macaron au chocolat d'exception</h4>
+                <p class="menuCard__text">Et glace à la vanille de Madagascar</p>
+                <p class="menuCard__price">22€</p>
+            </div>
+            <div class="menuCard">
+                <h4 class="menuCard__title">Mousse au chocolat</h4>
+                <p class="menuCard__text">Au piment d'espelette et à la truffe noire</p>
+                <p class="menuCard__price">23€</p>
+            </div>
+        </div>
+        <button class="btn btn--menu" type="button">Commander</button>
     </main>
     <footer class="footer">
-        <div class="footer--container">
-            <div class="footer--logo">
+        <div class="footer__container">
+            <div class="footer__logo">
                 <img src="images/logo/ohmyfood@2x.svg" alt="">
             </div>
-            <div class="footer--collumn">
+            <div class="footer__collumn">
                 <a href="#">Proposer un restaurant</a>
                 <a href="#">Devenir partenaire</a>
                 <a href="#">Mentions légales</a>
