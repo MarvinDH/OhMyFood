@@ -36,7 +36,7 @@ img {
     font-size: 14px;
     font-weight: bold;
     color: white;
-    background: linear-gradient(to bottom, #FF79DA 0%, #9356dc 100%);
+    background: linear-gradient(to bottom, #ff79da 0%, #9356dc 100%);
     border: none;
     border-radius: 50px;
     cursor: pointer; }
@@ -129,11 +129,16 @@ img {
       margin-right: 5%; }
 
 .restCard__new {
-  display: none;
-  background-color: #99e2d0;
-  color: #1c9965;
-  right: 10%;
-  bottom: -400px; }
+  position: absolute;
+  right: 5px;
+  top: 5px; }
+  .restCard__new p {
+    background-color: #99e2d0;
+    color: #1c9965;
+    padding: 5px; }
+
+.restCard {
+  position: relative; }
 
 .menu__title {
   display: flex;
