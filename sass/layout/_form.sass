@@ -65,9 +65,16 @@ img
         font-weight: bold
         color: white
         background: linear-gradient(to bottom, $secondary-color 0%, $primary-color 100%)
+        box-shadow: 0 0 16px #0f0f0f5b
         border: none
         border-radius: 50px
         cursor: pointer
+        transition: filter 300ms
+        transition: box-shadow 250ms
+        &__btn    
+        &:hover
+            box-shadow: 0 0 16px #00000088
+            filter: brightness(1.15)
 .headerMenu
     display: flex
     background-color: #fff
@@ -128,6 +135,9 @@ img
     margin: 20px
     box-shadow: 0 0 10px #a3a3a373
     padding-bottom: 10px
+    transition: transform 400ms
+    &:hover
+        transform: scale(1.01)
     img
         border-radius: 20px 20px 0 0
         height: 125px
