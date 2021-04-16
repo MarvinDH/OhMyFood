@@ -47,7 +47,8 @@ img {
 
 .headerMenu {
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  box-shadow: 0 0 16px #000000a2; }
 
 .backspace {
   position: absolute;
@@ -77,7 +78,6 @@ img {
     top: 80%;
     padding: 13px;
     font-size: 14px;
-    font-weight: bold;
     color: white;
     background: linear-gradient(to bottom, #ff79da 0%, #9356dc 100%);
     box-shadow: 0 0 16px #0f0f0f5b;
@@ -192,22 +192,61 @@ img {
 .restCard {
   position: relative; }
 
+.header__img {
+  height: 217px; }
+  .header__img img {
+    height: 218px;
+    object-fit: cover; }
+
+.menu {
+  margin-top: -30px; }
+
+.menuTitle {
+  display: flex;
+  position: relative;
+  bottom: 49px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px 50px 0 0; }
+
 .menu__title {
   display: flex;
   align-items: center; }
 
 .menuTitle__title {
   font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+  position: relative;
+  left: 5%;
+  top: 20px; }
 
 .menuTitle__icon {
-  font-size: 40px; }
+  position: relative;
+  right: 10%;
+  font-size: 40px;
+  top: 20px; }
 
 .restCard__icon--empty {
   position: absolute; }
 
 .restCard__icon--filled {
   position: relative; }
+
+.btn {
+  padding: 13px;
+  font-size: 14px;
+  color: white;
+  background: linear-gradient(to bottom, #ff79da 0%, #9356dc 100%);
+  box-shadow: 0 0 16px #0f0f0f5b;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: filter 300ms;
+  transition: box-shadow 250ms; }
+  .btn:hover {
+    box-shadow: 0 0 16px #00000088;
+    filter: brightness(1.15); }
 
 .footer {
   background-color: #2b2b2b; }
