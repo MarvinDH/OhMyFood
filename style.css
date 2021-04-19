@@ -198,9 +198,6 @@ img {
     height: 217px;
     object-fit: cover; }
 
-.menu {
-  margin-top: -30px; }
-
 .menuTitle {
   display: flex;
   position: relative;
@@ -212,7 +209,13 @@ img {
 
 .menu__title {
   display: flex;
-  align-items: center; }
+  font-size: 14px;
+  letter-spacing: .5px;
+  align-items: center;
+  margin-left: 15px;
+  font-weight: normal;
+  border-bottom: solid 2px #99e2d0;
+  max-width: 40px; }
 
 .menuTitle__title {
   font-size: 20px;
@@ -227,13 +230,42 @@ img {
   font-size: 40px;
   top: 20px; }
 
+.menuCard {
+  position: relative;
+  margin: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #a3a3a373;
+  border-radius: 15px;
+  padding: 25px; }
+  .menuCard__title {
+    position: absolute;
+    top: -30%;
+    left: 5%;
+    font-size: 14px;
+    font-weight: bold; }
+  .menuCard__text {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 12px; }
+  .menuCard__price {
+    position: absolute;
+    right: 5px;
+    top: 5%; }
+
 .restCard__icon--empty {
   position: absolute; }
 
 .restCard__icon--filled {
   position: relative; }
 
+.main {
+  position: relative; }
+
 .btn {
+  position: relative;
+  left: 25%;
+  margin: 15px;
   padding: 13px;
   font-size: 14px;
   color: white;
