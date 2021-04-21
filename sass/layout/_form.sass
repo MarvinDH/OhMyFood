@@ -83,12 +83,16 @@ img
     background-color: #fff
 .headerMenu__icon
     display: flex
+    position: relative
     justify-content: space-evenly
     align-items: center
     background-color: #e2e1e1d8
     p
-        margin-left: -70px
+        position: relative
+        max-width: 200px
         font-size: 14px
+    i
+        
 .function__title
     margin: 20px
     margin-top: 35px
@@ -221,6 +225,10 @@ img
         top: 40%
         left: 5%
         font-size: 12px
+        text-overflow: ellipsis
+        overflow: hidden
+        white-space: nowrap
+        width: 180px
     &__price
         position: absolute
         right: 5px
@@ -231,9 +239,13 @@ img
     position: relative
 .main
     position: relative
+.btn__wrapper
+    display: flex
+    position: relative
+    align-items: center
+    justify-content: center
 .btn
     position: relative
-    left: 25%
     margin: 15px
     padding: 13px
     font-size: 14px
