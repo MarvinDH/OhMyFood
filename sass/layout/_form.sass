@@ -234,9 +234,28 @@ img
         right: 5px
         top: 5%
 .restCard__icon--empty
-    position: absolute
-.restCard__icon--filled
     position: relative
+    z-index: 1
+    cursor: pointer
+.restCard__icon--filled
+    position: absolute
+    left: 0
+    top: 0
+    z-index: -1
+    background: linear-gradient($secondary-color, $primary-color)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    opacity: 0
+    transform: scale(0)
+    transform-origin: bottom
+    transition: .3s ease
+.restCard__icon--empty:hover .restCard__icon--filled
+    transform: scale(1)
+    opacity: 1
+.restCard__icon--empty:hover
+    background: linear-gradient($secondary-color, $primary-color)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
 .main
     position: relative
 .btn__wrapper
