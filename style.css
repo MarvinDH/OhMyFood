@@ -243,7 +243,8 @@ img {
   background-color: #fff;
   box-shadow: 0 0 10px #a3a3a373;
   border-radius: 15px;
-  padding: 25px; }
+  padding: 25px;
+  cursor: pointer; }
   .menuCard__title {
     position: absolute;
     top: -30%;
