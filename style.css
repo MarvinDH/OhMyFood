@@ -43,7 +43,8 @@ img {
   z-index: -1;
   width: 50%;
   height: 50%;
-  position: absolute; }
+  position: absolute;
+  max-width: 300px; }
 
 .headerMenu {
   align-items: center;
@@ -94,16 +95,20 @@ img {
   display: flex;
   background-color: #fff; }
 
+.headerMenu__icon__wrapper {
+  background-color: #e2e1e1d8; }
+
 .headerMenu__icon {
   display: flex;
   position: relative;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #e2e1e1d8; }
+  align-items: center; }
   .headerMenu__icon p {
     position: relative;
-    max-width: 200px;
-    font-size: 14px; }
+    font-size: 14px;
+    left: 40%; }
+  .headerMenu__icon i {
+    position: relative;
+    left: 35%; }
 
 .function__title {
   margin: 20px;
@@ -312,6 +317,32 @@ img {
   .btn:hover {
     box-shadow: 0 0 16px #00000088;
     filter: brightness(1.15); }
+
+.menu .menuCard {
+  opacity: 0;
+  animation: transition-delayed .5s forwards; }
+
+.menu .menuCard:nth-child(1) {
+  animation-delay: .1s; }
+
+.menu .menuCard:nth-child(2) {
+  animation-delay: .2s; }
+
+.menu .menuCard:nth-child(3) {
+  animation-delay: .3s; }
+
+.menu .menuCard:nth-child(4) {
+  animation-delay: .4s; }
+
+.menu .menuCard:nth-child(5) {
+  animation-delay: .5s; }
+
+.menu .menuCard:nth-child(6) {
+  animation-delay: .6s; }
+
+@keyframes transition-delayed {
+  100% {
+    opacity: 1; } }
 
 .footer {
   background-color: #2b2b2b; }
