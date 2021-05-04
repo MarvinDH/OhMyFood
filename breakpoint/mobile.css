@@ -1,0 +1,25 @@
+@media screen and (min-width:600px) {
+  .function__card{
+    display: flex;
+    justify-content: center;
+  }
+  .rule{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .rule span{
+    width: auto;
+  }
+  .rule p{
+    position: relative;
+    top: 25px;
+  }
+  .rest__img{
+    display: flex;
+  }
+  .rest__img a{
+    width: 30%;
+  }
+}
