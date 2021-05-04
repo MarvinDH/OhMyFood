@@ -83,8 +83,9 @@ img {
     text-align: center; }
   .headerText__btn {
     top: 80%;
-    padding: 13px;
-    font-size: 14px;
+    padding: 13px 20px 13px 20px;
+    font-size: 12px;
+    margin: 15px;
     color: white;
     background: linear-gradient(to bottom, #ff79da 0%, #9356dc 100%);
     box-shadow: 0 0 16px #0f0f0f5b;
@@ -102,7 +103,9 @@ img {
   background-color: #fff; }
 
 .headerMenu__icon__wrapper {
-  background-color: #e2e1e1d8; }
+  background-color: #e2e1e1d8;
+  display: flex;
+  justify-content: center; }
 
 .headerMenu__icon {
   display: flex;
@@ -110,11 +113,12 @@ img {
   align-items: center; }
   .headerMenu__icon p {
     position: relative;
-    font-size: 14px;
-    left: 40%; }
+    font-size: 15px;
+    font-weight: 600;
+    left: 30%; }
   .headerMenu__icon i {
     position: relative;
-    left: 35%; }
+    left: 25%; }
 
 .function__title {
   margin: 20px;
@@ -132,7 +136,7 @@ img {
     background-color: #f5f5f5ec;
     padding: 20px;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 13px;
     font-size: 15px;
     box-shadow: 0 0 10px #a3a3a373;
     font-weight: bold;
@@ -232,15 +236,15 @@ img {
 
 .menuTitle__title {
   font-size: 20px;
-  font-weight: bold;
   position: relative;
   left: 5%;
-  top: 20px; }
+  top: 20px;
+  font-family: Shrikhand; }
 
 .menuTitle__icon {
   position: relative;
   right: 10%;
-  font-size: 40px;
+  font-size: 25px;
   top: 20px; }
 
 .menuCard {
@@ -248,11 +252,12 @@ img {
   margin: 15px;
   background-color: #fff;
   box-shadow: 0 0 10px #a3a3a373;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 25px;
   cursor: pointer;
-  max-width: 70%;
-  margin: auto; }
+  max-width: 78%;
+  margin: auto;
+  margin-bottom: 10px; }
   .menuCard__title {
     position: absolute;
     top: -30%;
@@ -312,8 +317,8 @@ img {
 
 .btn {
   position: relative;
-  margin: 15px;
-  padding: 13px;
+  margin: 30px 30px 60px 30px;
+  padding: 13px 43px 13px 43px;
   font-size: 14px;
   color: white;
   background: linear-gradient(to bottom, #ff79da 0%, #9356dc 100%);
