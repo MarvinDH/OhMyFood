@@ -60,7 +60,13 @@ img {
   padding: 5px;
   width: 50%;
   margin: 0 auto;
-  margin-top: 20px; }
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.headerMenu__logo {
+  max-width: 300px; }
 
 .headerText {
   background-color: #f5f5f5ec;
