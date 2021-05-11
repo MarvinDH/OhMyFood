@@ -115,10 +115,10 @@ img {
     position: relative;
     font-size: 15px;
     font-weight: 600;
-    left: 30%; }
+    left: 10px; }
   .headerMenu__icon i {
     position: relative;
-    left: 25%; }
+    left: 0; }
 
 .function__title {
   margin: 20px;

@@ -1,4 +1,10 @@
 @media screen and (min-width:600px) {
+  .headerText h1{
+    font-size: 20px;
+  }
+  .headerText p{
+    font-size: 16px;
+  }
   .function__card{
     display: flex;
     justify-content: center;
@@ -21,5 +27,23 @@
   }
   .rest__img a{
     width: 30%;
+  }
+  .menu__title{
+    margin-left: 9%;
+  }
+  .menuTitle__title{
+    left: 9%;
+    font-size: 35px;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+  }
+  .footer__logo{
+    width: 300px;
+  }
+  .footer__column{
+    display: flex;
+    align-items: center;
   }
 }
