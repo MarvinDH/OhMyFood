@@ -1,4 +1,10 @@
 @media screen and (min-width:600px) {
+  body{
+    max-height: 1175px;
+  }
+  .backspace{
+    font-size: 25px;
+  }
   .headerText h1{
     font-size: 20px;
   }
@@ -8,6 +14,10 @@
   .function__card{
     display: flex;
     justify-content: center;
+  }
+  .function{
+    max-width: 1200px;
+    margin: auto;
   }
   .rule{
     display: flex;
@@ -22,6 +32,19 @@
     position: relative;
     top: 25px;
   }
+  .rest{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .rest:before{
+    content:"";
+    background-color: #f5f5f5ec;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    left: 0%;
+    z-index: -1;
+  }
   .rest__img{
     display: flex;
   }
@@ -29,11 +52,39 @@
     width: 30%;
   }
   .menu__title{
-    margin-left: 9%;
+    margin-left: 21%;
+    font-size: 18px;
   }
   .menuTitle__title{
-    left: 9%;
+    left: 21%;
     font-size: 35px;
+  }
+  .menuCard{
+    max-width: 50%;
+    padding: 30px;
+  }
+  .menuCard span{
+    font-size: 22px;
+    padding: 20px;
+    right: -57px;
+  }
+  .menuCard:hover span{
+    transform: translate(-57px)
+  }
+  .menuCard:hover .menuCard__price{
+    transform: translate(-57px)
+  }
+  .menuCard__title{
+    font-size:18px;
+  }
+  .menuCard__text{
+    font-size: 16px;
+    text-overflow: unset;
+    width: 100%
+  }
+  .menuTitle__icon{
+    font-size: 30px;
+    right: 21%;
   }
   .footer{
     display: flex;
@@ -45,5 +96,8 @@
   .footer__column{
     display: flex;
     align-items: center;
+  }
+  .footer__container{
+    padding: 30px;
   }
 }

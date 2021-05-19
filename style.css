@@ -273,8 +273,7 @@ img {
     font-size: 12px;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
-    width: 180px; }
+    white-space: nowrap; }
   .menuCard__price {
     position: absolute;
     right: 5px;
