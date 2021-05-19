@@ -18,25 +18,17 @@ img {
   background: #fff;
   width: 100%;
   height: 100%;
-  z-index: 3; }
-
-.loader__bg:before, .loader__bg:after {
+  z-index: 3;
   content: '';
   position: absolute;
-  animation: fadeOut 2s linear infinite;
-  opacity: 0; }
-
-.loader__bg:before {
-  animation-delay: 4s; }
+  animation: fadeOut 1s backwards;
+  opacity: 0;
+  animation-delay: 2.25s; }
 
 @keyframes fadeOut {
-  0% {
-    transform: scale(0);
-    opacity: 0; }
-  50% {
+  from {
     opacity: 1; }
-  100% {
-    transform: scale(1);
+  to {
     opacity: 0; } }
 
 .loader {
