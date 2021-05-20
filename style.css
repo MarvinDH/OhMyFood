@@ -21,15 +21,18 @@ img {
   z-index: 3;
   content: '';
   position: absolute;
-  animation: fadeOut 1s backwards;
+  animation: fadeOut 1s both;
   opacity: 0;
   animation-delay: 2.25s; }
 
 @keyframes fadeOut {
-  from {
+  0% {
     opacity: 1; }
-  to {
-    opacity: 0; } }
+  99% {
+    opacity: 0; }
+  100% {
+    display: none;
+    z-index: -1; } }
 
 .loader {
   z-index: -1;
