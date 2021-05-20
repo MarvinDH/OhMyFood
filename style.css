@@ -260,7 +260,11 @@ img {
     top: -30%;
     left: 5%;
     font-size: 14px;
-    font-weight: bold; }
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 80%; }
   .menuCard__text {
     position: absolute;
     top: 40%;
@@ -268,7 +272,8 @@ img {
     font-size: 12px;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap; }
+    white-space: nowrap;
+    width: 80%; }
   .menuCard__price {
     position: absolute;
     right: 5px;
@@ -278,7 +283,7 @@ img {
     align-items: center;
     justify-content: center;
     position: absolute;
-    z-index: 999;
+    z-index: 1;
     color: #fff;
     font-size: 20px;
     padding: 15px;
@@ -289,6 +294,10 @@ img {
     transition: .5s;
     right: -49px;
     width: 17px; }
+  .menuCard:hover .menuCard__text {
+    width: 60%; }
+  .menuCard:hover .menuCard__title {
+    width: 60%; }
   .menuCard:hover span {
     transition: ease-in-out .5s;
     transform: translate(-49px); }

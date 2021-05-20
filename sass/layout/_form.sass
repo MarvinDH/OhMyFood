@@ -224,6 +224,10 @@ img
         left: 5%
         font-size: 14px
         font-weight: bold
+        text-overflow: ellipsis
+        overflow: hidden
+        white-space: nowrap
+        width: 80%
     &__text
         position: absolute
         top: 40%
@@ -232,6 +236,7 @@ img
         text-overflow: ellipsis
         overflow: hidden
         white-space: nowrap
+        width: 80%
     &__price
         position: absolute
         right: 5px
@@ -241,7 +246,7 @@ img
         align-items: center
         justify-content: center
         position: absolute
-        z-index: 999
+        z-index: 1
         color: #fff
         font-size: 20px
         padding: 15px
@@ -252,6 +257,10 @@ img
         transition: .5s
         right: -49px
         width: 17px
+    &:hover .menuCard__text
+        width: 60%  
+    &:hover .menuCard__title
+        width: 60%
     &:hover span
         transition: ease-in-out .5s
         transform: translate(-49px)
